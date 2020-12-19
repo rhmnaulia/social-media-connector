@@ -1,13 +1,19 @@
-import { LinkedIn, GitHub, Twitter, Instagram } from "@material-ui/icons";
+import {
+  LinkedIn,
+  GitHub,
+  Twitter,
+  Instagram,
+  MailOutlineRounded,
+} from "@material-ui/icons";
 function SocialSection() {
   return (
-    <div className="pt-36 ">
+    <div className="pt-36">
       <ul className="flex-auto">
         <a
           href="https://www.linkedin.com/in/rhmnaulia"
           target="_blank"
           rel="noreferrer noopener"
-          className="mx-2"
+          className="mr-2"
         >
           <LinkedIn />
         </a>
@@ -34,6 +40,14 @@ function SocialSection() {
           rel="noreferrer noopener"
         >
           <Twitter />
+        </a>
+        <a
+          className="ml-2"
+          href="mailto: rahmanauliax@gmail.com"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <MailOutlineRounded />
         </a>
       </ul>
     </div>
