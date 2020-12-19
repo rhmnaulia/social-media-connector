@@ -13,7 +13,7 @@ function SocialSection() {
           href="https://www.linkedin.com/in/rhmnaulia"
           target="_blank"
           rel="noreferrer noopener"
-          className="mr-2"
+          className="mx-2"
         >
           <LinkedIn />
         </a>
@@ -42,7 +42,7 @@ function SocialSection() {
           <Twitter />
         </a>
         <a
-          className="ml-2"
+          className="mx-2"
           href="mailto: rahmanauliax@gmail.com"
           target="_blank"
           rel="noreferrer noopener"
